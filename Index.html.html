@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="formstyle.css">
+    <script>
+        var printvalue=()=>{
+           var name= document.form1.String.value;
+           let newString = "";
+        for(n=name.length-1;n>=0;n--){
+            newString += name[n];            
+        }
+        alert(newString)
+        }
+
+    </script>
+</head>
+<body>
+    <div class="frm">
+    <form name="form1">
+        <lable>Type Your String : </lable><input type="text" name="String"  placeholder="Please enter your text" id="String" />
+        <input type="button" id="btn" onclick="printvalue()"  value="Click to Reverse"/>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,32 @@
+
+  .frm{
+
+    width:100%;
+    min-height: 100vh;
+    margin-top: .5%;
+    padding-top: 25%;
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    overflow: hidden;
+    background-color: aquamarine;
+    text-indent: 0px;
+    line-height:0.8;
+    
+  }
+  #String{
+    background-color: aqua;
+    border-radius: 20px;
+    border-color: brown;
+  }
+   #String:active{
+   background-color: yellow; 
+  }
+  #btn:active{
+    background-color: green;
+  }
+  #btn{
+    background-color: lime;
+    border-color: brown;
+  }
+
